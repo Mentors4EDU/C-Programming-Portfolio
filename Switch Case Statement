@@ -1,0 +1,9 @@
+switch (expression)
+{
+case label1:   statements;
+break;
+case label2:   statements;
+break;
+default:    statements;
+break;
+}
