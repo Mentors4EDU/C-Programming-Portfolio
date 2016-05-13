@@ -1,0 +1,6 @@
+void recursion() {
+   recursion(); /* You are calling a function through itself */
+}
+int main() {
+   recursion();
+}
