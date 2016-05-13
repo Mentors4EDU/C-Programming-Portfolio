@@ -1,0 +1,1 @@
+volatile data_type variable_name; (or) volatile data_type *variable_name;
