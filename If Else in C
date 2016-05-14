@@ -1,0 +1,24 @@
+#include <stdio.h>
+#define LIMIT 50
+int main()
+{
+  int number;
+  printf("Hello, please enter a number!\n");
+  scanf("%d", &number);
+  if(number < LIMIT)
+  {
+    printf("Your number is %d.\n", number);
+    printf("That is a small number.\n");
+  }
+  else if(number == LIMIT)
+  {
+    printf("Well that number is %d.\n", number);
+    printf("Almost there.\n");
+  }
+  else
+  {
+    printf("The number will be %d, okay?\n", number);
+    printf("Pfft.\n");
+  }
+  return 0;
+}
