@@ -1,0 +1,8 @@
+do
+     {
+     Statement 1;
+     Statement 2; 
+     …………...
+     Statement n;
+    }
+while(i<4)
