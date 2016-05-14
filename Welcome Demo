@@ -1,0 +1,8 @@
+#include<stdio.h>
+#include<conio.h>
+int main ()
+       {
+        clrscr();
+        printf (“Welcome to this demo, enjoy your stay”);
+        return 0;
+       }
