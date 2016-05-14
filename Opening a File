@@ -1,0 +1,2 @@
+FILE *fopen (const char *path, const char *mode);
+Fp = fopen("/home/username/input.dat", "r");
