@@ -1,0 +1,6 @@
+#include <stdio.h>
+int main() {
+float v1 = 27;
+float v2 = 19;
+float result;
+char c = 's';
