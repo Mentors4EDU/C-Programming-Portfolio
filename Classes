@@ -1,0 +1,8 @@
+// Bench.h
+#import <Foundation/Foundation.h>
+@interface Bench : NSObject {
+    // Protected instance variables (not advised)
+}
+@property (copy) NSString *model;
+- (void)Sit;
+@end
