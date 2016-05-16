@@ -1,0 +1,13 @@
+// main.m
+#import <Foundation/Foundation.h>
+int getRandomInteger(int minimum, int maximum) {
+    return arc4random_uniform((maximum - minimum) + 1) + minimum;
+}
+int main(int argc, const char * argv[]) {
+    @autoreleasepool {
+        int randomNumber = getRandomInteger(-15, 15);
+        NSLog(@"Selected a random number between -15 and 15: %d",
+              randomNumber);
+    }
+    return 0;
+}
