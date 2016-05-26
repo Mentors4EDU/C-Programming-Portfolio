@@ -1,0 +1,9 @@
+DEFINITION MODULE Do
+    EXPORT list of functions and data
+    declarations of exported functions 
+        and data
+END Do
+IMPLEMENTATION MODULE Do
+    IMPORT list of modules used
+    ... code ...
+END Do
