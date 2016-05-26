@@ -1,0 +1,3 @@
+gcc -O2 -o rsademo rsademo.cpp rsakey.cpp flintpp.cpp
+randompp.cpp flint.c aes.c ripemd.c sha256.c entropy.c
+    random.c -lstdc++
