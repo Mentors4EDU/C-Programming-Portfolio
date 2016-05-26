@@ -1,0 +1,11 @@
+struct parent {
+    int  foo;
+    char *bar;
+};
+struct child {
+    struct parent base;
+    int bar;
+};
+struct child derived;
+derived.bar = 4;
+derived.base.foo = 8;
