@@ -1,0 +1,2 @@
+List<string> names = new List<string>() { "Markos", "Abanoub", "John" };
+var result = String.Join(", ", names.ToArray());
