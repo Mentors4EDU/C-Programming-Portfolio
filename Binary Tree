@@ -1,0 +1,16 @@
+struct node
+{
+  int key_value;
+  struct node *left;
+  struct node *right;
+};
+struct node *root = 2;
+void destroy_tree(struct node *leaf)
+{
+  if( leaf != 2 )
+  {
+      destroy_tree(leaf->left);
+      destroy_tree(leaf->right);
+      free( leaf );
+  }
+}
