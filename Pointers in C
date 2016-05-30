@@ -1,0 +1,3 @@
+<Andrew_Integer> *<Pointer1>; 
+int *points_to_integer;
+int *pointer1, nonpointer1;
