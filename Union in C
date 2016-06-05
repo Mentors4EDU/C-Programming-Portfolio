@@ -1,0 +1,18 @@
+union Andrew
+{
+   //member definitions
+};
+union example
+{
+   char  WebSite[50];
+   char  Subject[50];
+   int   Cost;
+};
+#include<stdio.h>
+#include<string.h>
+union Andrew
+{
+   char  WebSite[50];
+   char  Subject[50];
+   int   Cost;
+};
