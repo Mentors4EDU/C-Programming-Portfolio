@@ -1,0 +1,3 @@
+ar rc libmylib.a objfile1.o objfile2.o objfile3.o
+ranlib libmylib.a
+gcc -o foo -L. -lmylib foo.o
