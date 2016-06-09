@@ -1,0 +1,20 @@
+void *malloc(size_t size);
+  int *ip;
+  ip = malloc(3 * sizeof(int));
+   #define INITIAL_ARRAY_SIZE 3
+  /* ... code ... */
+  int *ip;
+  if ((ip = malloc(INITIAL_ARRAY_SIZE * sizeof(int))) == NULL) {
+    (void)fprintf(stderr, "ERROR: Malloc failed");
+    (void)exit(EXIT_FAILURE);    /* or return EXIT_FAILURE; */
+  }
+void free(void *ptr);
+#define oops(s) { perror((s)); exit(EXIT_FAILURE); }
+#define MALLOC(s,t) if(((s) = malloc(t)) == NULL) { oops("error: malloc() "); }
+#define INCREMENT 6
+ double **xyz;
+  int i;
+  MALLOC(xyz, sizeof(double *) * INCREMENT);
+  for (i = 0; i < INCREMENT; i++) {
+    MALLOC(xyz[i], sizeof(double) * 3);
+  }
