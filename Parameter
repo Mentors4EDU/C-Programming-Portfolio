@@ -1,0 +1,6 @@
+CalculateBill (a,b,c)
+int a,b,c;
+{ int total;
+total = a + b + c;
+return total;
+}
