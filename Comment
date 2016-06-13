@@ -1,0 +1,3 @@
+main ()   /* The comment test */
+{
+/* This is a comment in c */
