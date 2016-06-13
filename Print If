@@ -1,0 +1,4 @@
+main ()
+   {
+   printf ("Physiics is Wonderful \n",1);
+   printf ("And amazing %d \n",2);
