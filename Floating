@@ -1,0 +1,9 @@
+int i,j;
+    main ()
+   { float x,y;
+   another(x,y);
+   }
+   another(x,y)
+   float x,y;
+   {
+   }
