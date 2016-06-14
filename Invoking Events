@@ -1,0 +1,2 @@
+if (Changed != null)
+Changed(this, e);
