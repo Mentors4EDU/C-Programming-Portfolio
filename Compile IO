@@ -1,0 +1,2 @@
+/* This is how you compile a duplicate redirector */
+gcc -o dup2-a dup2-a.c
