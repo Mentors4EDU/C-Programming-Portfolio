@@ -1,0 +1,14 @@
+int
+execve(const char *path, char *const argv[], char *const envp[]);
+#include <stdlib.h>	/* needed to define exit() */
+#include <unistd.h>	/* needed to define getpid() */
+#include <stdio.h>	/* needed for printf() */
+int
+main(int argc, char **argv) {
+	char *args[] = {"ls", "-aF", "/", 0};	/* each element represents an argument */
+	char *env[] = { 0 };	/* leave the environment list empty*/
+	printf("This program is gonn a run run /bin/ls\n");
+	execve("/bin/ls", args, env);
+	perror("execve");	/* if you see this message than you have an error */
+	exit(1);
+}
