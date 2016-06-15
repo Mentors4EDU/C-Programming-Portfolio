@@ -1,0 +1,2 @@
+if ((servSock = socket(PF_INET, SOCK_STREAM, IPPROTO_TCP)) < 0)
+DieWithError("socket() failed");
