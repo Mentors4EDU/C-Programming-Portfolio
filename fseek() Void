@@ -1,0 +1,1 @@
+(void)fseek(stream, 0L, SEEK_SET)
