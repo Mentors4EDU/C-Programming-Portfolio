@@ -1,0 +1,6 @@
+struct Worker
+{
+    int     emp_id;
+    int     name_len;
+    char    name[0];
+};
