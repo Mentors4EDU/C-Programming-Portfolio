@@ -1,0 +1,7 @@
+#include <stdio.h>
+int main ()
+{
+    float x;
+    x = (float) 14/10;
+    printf("%f",x);
+}
