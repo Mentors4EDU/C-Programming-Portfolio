@@ -1,0 +1,12 @@
+/* Example using #undef directive by sample */
+#include <stdio.h>
+#define YEARS_OLD 15
+#undef YEARS_OLD
+int main()
+{
+   #ifdef YEARS_OLD
+   printf("Andrew is over %d years old.\n", YEARS_OLD);
+   #endif
+   printf("Andrew is a big man.\n");
+   return 0;
+}
