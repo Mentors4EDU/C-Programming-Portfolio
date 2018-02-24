@@ -1,0 +1,11 @@
+#include <stdio.h>
+int main()
+{
+   char ch;
+   printf("Enter a character\n");
+   scanf("%c", &ch);
+   if ( isspace ( ch ) )
+      printf ( "\n Character is in space" ) ;
+   else
+      printf ( "\n Character is not in space" ) ;
+}
