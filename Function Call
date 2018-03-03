@@ -1,0 +1,1 @@
+extern "C" int call_M_foo(M* m, int i) { return m->foo(i); }
