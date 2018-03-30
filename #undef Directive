@@ -7,6 +7,6 @@ int main()
    #ifdef YEARS_OLD
    printf("Andrew is over %d years old.\n", YEARS_OLD);
    #endif
-   printf("Andrew is a big man.\n");
+   printf("Andrew is an awesome man.\n");
    return 0;
 }
