@@ -1,0 +1,13 @@
+#include <stdio.h>
+int main()
+{
+    int intarray[5] = {5,10,15,20,25};
+    int i;
+    for(i = 0; i < 5; i++)
+        printf("intarray[%d] has value %d - and address @ %x\n", i, intarray[i], &intarray[i]);
+    int *intpointer = &intarray[3]; 
+    printf("address: %x - has value %d\n", intpointer, *intpointer);
+    intpointer++;
+    printf("address: %x - has value %d\n", intpointer, *intpointer); 
+    return 0;
+}
