@@ -2,7 +2,7 @@ class twoThreeTree {
   public:
     twoThreeTree(void);      // Constructor
     ~twoThreeTree(void);     // Destructor
-    void add(int item);      // Adds an item
+    void add(int item);      // Adds item
     void search(int item);   //
     Searches for an item
   private:
